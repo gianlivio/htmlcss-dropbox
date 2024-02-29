@@ -4,6 +4,41 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: blue;
+
+
+/* flex */
+.flex {
+    display: flex;
+    justify-content: center;
 }
+
+
+
+.header, .hero, .main, .footer {
+    width: 100%;
+    max-width: 1100px;
+    padding: 20px;
+    
+    
+}
+
+.header {
+    background-color: blue
+}
+
+.hero {
+    background-color: red
+}
+
+.main {
+    background-color: orange
+   }
+
+
+.footer {
+    background-color: green;
+  
+}
+
+
+
