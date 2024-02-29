@@ -14,35 +14,67 @@
 
 
 
-.header, .hero, .main, .footer {
+.header, .hero, .main, .footer, .banner, .domande, .prova{
     width: 100%;
-    max-width: 1100px;
+    
     padding: 20px;
     
     
 }
 
+
+ /* HEADER */
 .header {
     background-color: blue
 }
 
+
+/* HERO */
 .hero {
     background-color: red
 }
 
+
+/* MAIN */
 .main {
     background-color: orange
    }
+
+   /* CONTENITORE MAIN */
 
 .container {
     border: 1px dashed black;
     width: 60%;
     /* debug */
-    height: 500px;
+    height: 100px;
 
 }
 
+/* SEZIONE 1 MAIN */
+ 
 
+
+
+/* BANNER */
+
+.banner {
+    background-color: greenyellow;
+}
+
+/* PROVA */
+
+.prova {
+    background-color: palevioletred;
+}
+
+/* DOMANDE */
+
+.domande {
+    background-color: pink;
+}
+
+
+/* FOOTER */
 .footer {
     background-color: green;
   
