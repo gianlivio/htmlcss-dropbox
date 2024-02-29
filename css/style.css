@@ -10,12 +10,12 @@
 .flex {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -31,7 +31,7 @@
 .prova {
     width: 100%;
 
-    padding: 20px;
+    padding: 10px;
 
 
 }
@@ -57,19 +57,20 @@
 /* CONTENITORE MAIN */
 
 .container {
-    border: 1px dashed black;
+ 
     width: 40%;
     /* debug */
     height: 100%;
-
+    background-color: aqua;
+    
 }
 
 /* SEZIONE 1 MAIN */
 
 .piano-business {
     /* debug */
-    height: 40px;
-    border: 1px solid blue;
+    height: 100px;
+    background-color: rgb(84, 238, 187);
 }
 
 
@@ -80,8 +81,9 @@
     justify-content: space-between;
 
     /* debug */
-    height: 40px;
-    border: 1px solid blue;
+    background-color: rgb(149, 250, 250);
+    height: 100px;
+    
 
 }
 
@@ -108,32 +110,32 @@
 /* SEZIONE TEAM 3 , CONTATTA */
 .contatta {
     /* debug */
-    height: 40px;
-    border: 1px solid blue;
+    height: 100px;
+    background-color: rgb(55, 206, 155);
 }
 
 /* SEZIONE 4 TROVA PARTNER */
 .partner {
     /* debug */
-    height: 40px;
-    border: 1px solid blue;
+    height: 100px;
+    background-color: rgb(13, 184, 184);
 }
 
 
 /* SEZIONE 5 OPERAZIONI */
 .operazioni-business {
 
-    
+
     /* debug */
     height: 100px;
-    border: 1px solid blue;
+    background-color:rgb(15, 172, 172)a;
 }
 
 
 
 .col-wrap {
     /* debug */
-    flex: 0 0 calc(33.333% - 5px); 
+    flex: 0 0 calc(33.333% - 5px);
     margin: 1px;
     border: 1px dashed black;
 }
@@ -141,8 +143,8 @@
 /* SEZIONE 6 SCOPRI DI PIU */
 .scopri {
     /* debug */
-    height: 40px;
-    border: 1px solid blue;
+    height: 100px;
+    background-color: rgb(29, 224, 127);
 }
 
 
@@ -153,26 +155,110 @@
 .banner {
     height: 450px;
     background-color: greenyellow;
-  
+
 }
+
+/* banner left part */
 
 .banner-left {
-    flex: 0 0 calc(33% - 1px); 
+    flex: 0 0 calc(33% - 1px);
     margin: 1px;
     border: 1px dashed black;
-    
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
 }
+
+/* sponsor left part */
+
+.sponsor1 {
+    width: calc(50% - 2px); 
+    height: calc(50% - 2px); 
+    /*debug */
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.sponsor2 {
+    width: calc(50% - 2px); 
+    height: calc(50% - 2px); 
+    /* debug */
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.sponsor3 {
+    width: calc(50% - 2px); 
+    height: calc(50% - 2px); 
+    /* debug */
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.sponsor4 {
+    width: calc(50% - 2px); 
+    /* debug */
+    margin: 1px;
+    border: 1px solid black;
+}
+
+
+
+
 
 .banner-center {
-    flex: 0 0 calc(33% - 1px); 
+    flex: 0 0 calc(33% - 1px);
     margin: 1px;
     border: 1px dashed black;
 }
 
+
+
+/* banner right part */
+
 .banner-right {
-    flex: 0 0 calc(33% - 1px); 
+    flex: 0 0 calc(33% - 1px);
     margin: 1px;
     border: 1px dashed black;
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+
+/* sponsor right part */
+
+.sponsor5 {
+    width: calc(50% - 2px); 
+    height: calc(50% - 2px); 
+    /*debug */
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.sponsor6 {
+    width: calc(50% - 2px); 
+    height: calc(50% - 2px); 
+    /* debug */
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.sponsor7 {
+    width: calc(50% - 2px); 
+    height: calc(50% - 2px); 
+    /* debug */
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.sponsor8 {
+    width: calc(50% - 2px); 
+    /* debug */
+    margin: 1px;
+    border: 1px solid black;
 }
 
 
