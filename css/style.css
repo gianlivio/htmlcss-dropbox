@@ -21,6 +21,14 @@
 
 
 /* default */
+ul li {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+}
 
 .header,
 .hero,
@@ -30,17 +38,82 @@
 .domande,
 .prova {
     width: 100%;
-
-    padding: 10px;
-
-
+    padding: 20px;
 }
 
 
 /* HEADER */
 .header {
-    background-color: blue
+    background-color: rgb(119, 119, 156);
+    display: flex;
+    justify-content: space-between;
+   
 }
+
+/* primo container- logo part */
+.logo-part {
+    background-color: aquamarine;
+    border: 1px dashed black;
+    width: 33%;
+    display: flex;
+   
+    
+}
+
+.logo-list {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.logo-list-item {  
+    padding: 10px;  
+    margin: 1px;
+    border: 1px solid black;
+}
+
+
+
+
+.empty-part {    
+    width: 33%;
+    background-color: red;
+    border: 1px dashed black;
+
+}
+
+
+
+
+
+/* terzo container - inizia part */
+
+.inizia-part {
+    
+    width: 33%;
+    background-color: chartreuse; 
+    border: 1px dashed black;
+
+}
+
+.inizia-list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.inizia-list-item {
+    padding: 10px; 
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.inizia-part ul li:last-child {
+    background-color: rgb(59, 216, 208);
+  }
+
 
 
 /* HERO */
