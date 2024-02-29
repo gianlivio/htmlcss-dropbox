@@ -44,13 +44,48 @@
 
 .container {
     border: 1px dashed black;
-    width: 60%;
+    width: 40%;
     /* debug */
-    height: 100px;
+    height: 100%;
 
 }
 
 /* SEZIONE 1 MAIN */
+
+.piano-business {
+    /* debug */
+    height: 40px;
+    border: 1px solid blue;
+}
+
+
+
+
+.col {
+    /* debug */
+    height: 40px;
+    border: 1px solid blue;
+}
+.contatta {
+    /* debug */
+    height: 40px;
+    border: 1px solid blue;
+}
+.partner {
+    /* debug */
+    height: 40px;
+    border: 1px solid blue;
+}
+.operazioni-business {
+    /* debug */
+    height: 40px;
+    border: 1px solid blue;
+}
+.scopri {
+    /* debug */
+    height: 40px;
+    border: 1px solid blue;
+}
  
 
 
@@ -67,10 +102,22 @@
     background-color: palevioletred;
 }
 
+.inizia-prova {
+    /* debug */
+    height: 40px;
+    border: 1px solid blue;
+}
+
 /* DOMANDE */
 
 .domande {
     background-color: pink;
+}
+
+.domande-frequenti {
+    /* debug */
+    height: 40px;
+    border: 1px solid blue;
 }
 
 
