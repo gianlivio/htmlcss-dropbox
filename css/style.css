@@ -10,20 +10,34 @@
 .flex {
     display: flex;
     justify-content: center;
+    
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
+/* default */
 
-.header, .hero, .main, .footer, .banner, .domande, .prova{
+.header,
+.hero,
+.main,
+.footer,
+.banner,
+.domande,
+.prova {
     width: 100%;
-    
+
     padding: 20px;
-    
-    
+
+
 }
 
 
- /* HEADER */
+/* HEADER */
 .header {
     background-color: blue
 }
@@ -38,9 +52,9 @@
 /* MAIN */
 .main {
     background-color: orange
-   }
+}
 
-   /* CONTENITORE MAIN */
+/* CONTENITORE MAIN */
 
 .container {
     border: 1px dashed black;
@@ -59,42 +73,108 @@
 }
 
 
-
+/* SEZIONE 2 MAIN, COLONNE */
 
 .col {
+    display: flex;
+    justify-content: space-between;
+
     /* debug */
     height: 40px;
     border: 1px solid blue;
+
 }
+
+.col1 {
+    width: 33%;
+    margin: 1px;
+    border: 1px dashed black;
+
+}
+
+.col2 {
+    border: 1px dashed black;
+    width: 33%;
+    margin: 1px;
+}
+
+.col3 {
+    border: 1px dashed black;
+    width: 33%;
+    margin: 1px;
+}
+
+
+/* SEZIONE TEAM 3 , CONTATTA */
 .contatta {
     /* debug */
     height: 40px;
     border: 1px solid blue;
 }
+
+/* SEZIONE 4 TROVA PARTNER */
 .partner {
     /* debug */
     height: 40px;
     border: 1px solid blue;
 }
+
+
+/* SEZIONE 5 OPERAZIONI */
 .operazioni-business {
+
+    
     /* debug */
-    height: 40px;
+    height: 100px;
     border: 1px solid blue;
 }
+
+
+
+.col-wrap {
+    /* debug */
+    flex: 0 0 calc(33.333% - 5px); 
+    margin: 1px;
+    border: 1px dashed black;
+}
+
+/* SEZIONE 6 SCOPRI DI PIU */
 .scopri {
     /* debug */
     height: 40px;
     border: 1px solid blue;
 }
- 
+
 
 
 
 /* BANNER */
 
 .banner {
+    height: 450px;
     background-color: greenyellow;
+  
 }
+
+.banner-left {
+    flex: 0 0 calc(33% - 1px); 
+    margin: 1px;
+    border: 1px dashed black;
+    
+}
+
+.banner-center {
+    flex: 0 0 calc(33% - 1px); 
+    margin: 1px;
+    border: 1px dashed black;
+}
+
+.banner-right {
+    flex: 0 0 calc(33% - 1px); 
+    margin: 1px;
+    border: 1px dashed black;
+}
+
 
 /* PROVA */
 
@@ -124,8 +204,5 @@
 /* FOOTER */
 .footer {
     background-color: green;
-  
+
 }
-
-
-
