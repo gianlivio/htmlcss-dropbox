@@ -34,6 +34,14 @@
     background-color: orange
    }
 
+.container {
+    border: 1px dashed black;
+    width: 60%;
+    /* debug */
+    height: 500px;
+
+}
+
 
 .footer {
     background-color: green;
