@@ -174,10 +174,12 @@ a {
 
 .piano-business {
     /* debug */
-    height: 100px;
     background-color: rgb(84, 238, 187);
 }
 
+.piano-business h1 {
+    padding-bottom: 50px;
+}
 
 /* SEZIONE 2 MAIN, COLONNE */
 
@@ -357,7 +359,7 @@ a {
 /* PROVA */
 
 .prova {
-    background-color: #f6f6f6;
+    background-color: #b4d0e7;
 }
 
 .inizia-prova {
