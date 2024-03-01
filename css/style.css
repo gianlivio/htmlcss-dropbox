@@ -6,6 +6,7 @@
 
 
 
+
 /* flex */
 .flex {
     display: flex;
@@ -21,6 +22,11 @@
 
 
 /* default */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
 
 img {
    max-width: 100%;
@@ -209,6 +215,7 @@ a {
 
 .piano-business {
     padding-top: 15%;
+    padding-bottom: 50px;
     
 }
 
@@ -216,36 +223,175 @@ a {
     padding-bottom: 50px;
 }
 
+
+
+
 /* SEZIONE 2 MAIN, COLONNE */
 
 .col {
     display: flex;
     justify-content: space-between;
+    
 
-    /* debug */
-    background-color: rgb(149, 250, 250);
-    height: 100px;
-
+  
+   
+   
 
 }
 
+/* Singolo  */
 .col1 {
     width: 33%;
     margin: 1px;
-    border: 1px dashed black;
+    
+
 
 }
+
+.tipologia {
+    border: 1px solid grey;
+    text-align: center;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-prezzi {
+    text-align: left;
+    margin: 15px;
+}
+
+
+.info-prezzi h2 {
+    margin-top: 20px;
+    font-size: 1.5em; 
+    display: inline-block;
+   
+}
+
+
+.info-prezzi h5  {
+    
+    font-size: 1em; 
+    font-weight: bold;
+    margin-top: 20px;
+   
+}
+.al-mese {
+    color: gray;
+    font-size: 1em;
+}
+
+.col1 ul {
+    padding-top: 30px;
+    padding-bottom: 30px;
+       
+}
+
+.col1 ul li {
+    padding-top: 10px;
+    padding: 5px;
+    
+    
+}
+
+ul li i {
+    margin-right: 10px;
+}
+
+.prova-gratis {
+    
+        margin: 10px;
+        padding: 1px;
+        font-size: 0.9em; 
+        background-color: #455dbd;
+        text-align: center;
+        color: white;
+       
+       
+    }
+
+    .acquista-ora {
+        font-size: 1em;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+
+    .acquista-ora a {
+        text-decoration: underline;
+        color: #0d2481;
+    }
+    
+/* separatore */
+
+.separatore {
+    height: 2px;
+    background-color: #grey; 
+    width: 50%; 
+    margin: 20px 0; 
+    padding: 10px;
+}
+
+.punti-salienti {
+    text-align: left;
+    padding: 10px;
+}
+
+.punti-salienti ul li {
+    font-size: 1em;
+}
+.fa-check {
+    color: blue;
+}
+
+
+
+
+
+
+/* Team */
 
 .col2 {
-    border: 1px dashed black;
+    
     width: 33%;
     margin: 1px;
 }
 
+.col2 ul {
+    padding-top: 30px;
+    padding-bottom: 30px;
+       
+}
+
+.col2 ul li {
+    padding-top: 10px;
+    padding: 5px;
+    
+    
+}
+
+
+/* Azienda */
 .col3 {
-    border: 1px dashed black;
+    
     width: 33%;
     margin: 1px;
+}
+
+.col3 ul {
+    padding-top: 30px;
+    padding-bottom: 30px;
+       
+}
+
+.col3 ul li {
+    padding-top: 10px;
+    padding: 5px;
+    
+    
 }
 
 
