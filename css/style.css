@@ -561,53 +561,64 @@ ul li i {
 }
 
 /* sponsor left part */
+/* da nero a bianco */
+.sponsor1 img {
+    filter: brightness(0) invert(1);
+    padding: 30%;
+       
+}
 
 
 .sponsor1 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
-    background-color: #a2d39b;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../img/designit.svg);
+    background-color:#d1e9cd;;
     
+}
 
+.designitcontainer {
+    background-color:  #a2d39b;
+    margin: 5%;
+}
+
+
+.sponsor2 img {
+    filter: brightness(0) invert(1);
+    padding: 30%;
+       
 }
 
 .sponsor2 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
-    background-color: #61082b;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../img/arizona_state_university.svg);
+    background-color: #61082b;  
     
-    
+}
+
+
+.sponsor3 img {
+    filter: brightness(0) invert(1);
+    padding: 35% 20%;
+       
 }
 
 .sponsor3 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
-    background-color: #ff1c1c;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../img/university_of_florida.svg);
-    
+    background-color:  #0093ce;   
 
+}
+
+.sponsor4 img {
+    filter: brightness(0) invert(1);
+    padding: 30% 20%;
+       
 }
 
 .sponsor4 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
-    background-color: #0093ce;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../img/topps.svg);
-    
+    background-color: #ff1c1c;   
 
 }
 
@@ -636,51 +647,59 @@ ul li i {
 
 /* sponsor right part */
 
+.sponsor5 img {
+    filter: brightness(0) invert(1);
+    padding: 30% 20%;
+       
+}
+
+
 .sponsor5 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
-    background-color: #d5001f;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../img/world_bicycle_relief.svg);
-    
+    background-color: #d5001f;   
 
 }
+
+.sponsor6 img {
+    filter: brightness(0) invert(1);
+    padding: 40% 10%;
+       
+}
+
 
 .sponsor6 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
     background-color: #b4d0e7;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../img/hearst_corp.svg);
-    
+
 
 }
+
+.sponsor7 img {
+    filter: brightness(0) invert(1);
+    padding: 30% 20%;
+       
+}
+
 
 .sponsor7 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
-    background-color: #0d2481;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../img/lonely_planet.svg);
-    
+    background-color: #0d2481;   
 
+}
+
+.sponsor8 img {
+    filter: brightness(0) invert(1);
+    padding: 20% 20%;
+       
 }
 
 .sponsor8 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
     background-color: #ffd830;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../img/clear_channel.svg);
-    
 
 }
 
