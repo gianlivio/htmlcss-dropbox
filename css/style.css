@@ -169,14 +169,11 @@ a {
 
 
 /* img fuori dal bordo */
-.heroo-img {
-    background-size: cover;
-    
+.heroo-img img {
+    width: 110%; 
     position: absolute;
-    right: ;
-    bottom: 0;
-    left: 40%;
-    top: 0;
+    right: 
+    
 }
 
 
@@ -187,10 +184,11 @@ a {
 }
 
 
-.heroo ul li:nth-child(2) {
+.heroo1 ul li:nth-child(2) a{
     padding: 10px;
     display: inline-block;
-    background-color: rgb(59, 216, 208);
+    background-color: #0061ff;
+    color: white;
 }
 
 
@@ -203,7 +201,7 @@ a {
 
 .container {
 
-    width: 40%;
+    width: 45%;
    
    
    
@@ -223,7 +221,10 @@ a {
     padding-bottom: 50px;
 }
 
-
+.piano-business > span {
+    
+    padding: 3px;
+}
 
 
 /* SEZIONE 2 MAIN, COLONNE */
@@ -239,14 +240,7 @@ a {
 
 }
 
-/* Singolo  */
-.col1 {
-    width: 33%;
-    margin: 1px;
-    
-
-
-}
+/* Comune  */
 
 .tipologia {
     border: 1px solid grey;
@@ -274,7 +268,7 @@ a {
 
 .info-prezzi h5  {
     
-    font-size: 1em; 
+    font-size: 15px; 
     font-weight: bold;
     margin-top: 20px;
    
@@ -284,19 +278,6 @@ a {
     font-size: 1em;
 }
 
-.col1 ul {
-    padding-top: 30px;
-    padding-bottom: 30px;
-       
-}
-
-.col1 ul li {
-    padding-top: 10px;
-    padding: 5px;
-    
-    
-}
-
 ul li i {
     margin-right: 10px;
 }
@@ -304,9 +285,9 @@ ul li i {
 .prova-gratis {
     
         margin: 10px;
-        padding: 1px;
-        font-size: 0.9em; 
-        background-color: #455dbd;
+        padding: 3px 7px;
+        font-size: 12px; 
+        background-color: #0061ff;
         text-align: center;
         color: white;
        
@@ -338,21 +319,44 @@ ul li i {
 .punti-salienti {
     text-align: left;
     padding: 10px;
+    font-size: 12px;
 }
 
 .punti-salienti ul li {
-    font-size: 1em;
+    font-size: 13px;
 }
 .fa-check {
     color: blue;
 }
 
 
+/* Singolo - col 1 */
+
+.col1 {
+    width: 33%;
+    margin: 1px;
+    
+}
+
+.col1 ul {
+    padding-top: 30px;
+    padding-bottom: 30px;
+       
+}
+
+.col1 ul li {
+    padding-top: 10px;
+    padding: 5px;
+
+}
 
 
 
 
-/* Team */
+
+
+
+/* Team - col2 */
 
 .col2 {
     
@@ -374,7 +378,7 @@ ul li i {
 }
 
 
-/* Azienda */
+/* Azienda - col3 */
 .col3 {
     
     width: 33%;
@@ -396,18 +400,42 @@ ul li i {
 
 
 /* SEZIONE TEAM 3 , CONTATTA */
+
 .contatta {
-    /* debug */
-    height: 100px;
-    background-color: rgb(55, 206, 155);
+    border: 1px solid gray;
+    margin-bottom: 80px;
 }
+.enterprise {
+    position: relative;
+}
+
+.enterprise > span {
+    background-color: #0093ce;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px;
+    padding: 5px 20px;
+    font-size: 10px;
+}
+
+.enterprise > * {
+    padding: 10px 10px;
+}
+
+.enterprise > h6 {
+    margin-bottom: 40px;
+}
+.enterprise > p {
+    font-size: 10px;
+}
+
 
 /* SEZIONE 4 TROVA PARTNER */
 .partner {
-    /* debug */
-   
-    background-color: rgb(13, 184, 184);
-    display: flex;
+   display: flex;
+   margin-bottom: 50px;
 
 }
 
@@ -424,6 +452,10 @@ ul li i {
 
 .partner-info ul li {
     margin-bottom: 20px;
+}
+
+.partner-info ul li > p {
+    font-size: 15px;
 }
 
 .partner-info ul li:last-child {
