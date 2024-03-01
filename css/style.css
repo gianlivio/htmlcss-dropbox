@@ -224,9 +224,31 @@ a {
 /* SEZIONE 4 TROVA PARTNER */
 .partner {
     /* debug */
-    height: 100px;
+   
     background-color: rgb(13, 184, 184);
+    display: flex;
+
 }
+
+.partner-img {
+    width: 50%;
+    background-size: cover;
+}
+
+.partner-info {
+    padding: 20px;
+    
+    width: 50%;
+}
+
+.partner-info ul li {
+    margin-bottom: 20px;
+}
+
+.partner-info ul li:last-child {
+    border: 1px solid black;
+}
+
 
 
 /* SEZIONE 5 OPERAZIONI */
