@@ -23,11 +23,13 @@
 /* default */
 ul li {
     list-style: none;
-    
+
 }
 
 a {
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
 }
 
 .header,
@@ -44,10 +46,10 @@ a {
 
 /* HEADER */
 .header {
-    background-color: rgb(119, 119, 156);
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-   
+
 }
 
 /* primo container- logo part */
@@ -56,20 +58,20 @@ a {
     border: 1px dashed black;
     width: 33%;
     display: flex;
-   
-    
+
+
 }
 
 .logo-list {
     margin-left: 20px;
     display: flex;
     justify-content: space-between;
-   
+
 
 }
 
-.logo-list-item {  
-    padding: 10px;  
+.logo-list-item {
+    padding: 10px;
     margin: 1px;
     border: 1px solid black;
 }
@@ -77,7 +79,7 @@ a {
 
 
 
-.empty-part {    
+.empty-part {
     width: 33%;
     background-color: red;
     border: 1px dashed black;
@@ -91,9 +93,9 @@ a {
 /* terzo container - inizia part */
 
 .inizia-part {
-    
+
     width: 33%;
-    background-color: chartreuse; 
+    background-color: chartreuse;
     border: 1px dashed black;
 
 }
@@ -101,41 +103,41 @@ a {
 .inizia-list {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .inizia-list-item {
-    padding: 10px; 
+    padding: 10px;
     margin: 1px;
     border: 1px solid black;
 }
 
 .inizia-part ul li:last-child {
     background-color: rgb(59, 216, 208);
-  }
+}
 
 
 
 /* HERO */
 .hero {
-    background-color: red
+    background-color: #b4d0e7;
 }
 
 
 /* MAIN */
 .main {
-    background-color: orange
+    background-color: #ffffff;
 }
 
 /* CONTENITORE MAIN */
 
 .container {
- 
+
     width: 40%;
     /* debug */
     height: 100%;
     background-color: aqua;
-    
+
 }
 
 /* SEZIONE 1 MAIN */
@@ -156,7 +158,7 @@ a {
     /* debug */
     background-color: rgb(149, 250, 250);
     height: 100px;
-    
+
 
 }
 
@@ -201,7 +203,7 @@ a {
 
     /* debug */
     height: 100px;
-    background-color:rgb(15, 172, 172)a;
+    background-color: rgb(15, 172, 172)a;
 }
 
 
@@ -237,43 +239,38 @@ a {
     flex: 0 0 calc(33% - 1px);
     margin: 1px;
     border: 1px dashed black;
-   
+
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 /* sponsor left part */
 
 .sponsor1 {
-    width: calc(50% - 2px); 
-    height: calc(50% - 2px); 
-    /*debug */
-    margin: 1px;
-    border: 1px solid black;
+    width: calc(50% - 1px);
+    height: calc(50% - 1px);
+
+    background-color: #a2d39b;
 }
 
 .sponsor2 {
-    width: calc(50% - 2px); 
-    height: calc(50% - 2px); 
-    /* debug */
-    margin: 1px;
-    border: 1px solid black;
-}
+    width: calc(50% - 1px);
+    height: calc(50% - 1px);
 
+    background-color: #61082b;
+}1
 .sponsor3 {
-    width: calc(50% - 2px); 
-    height: calc(50% - 2px); 
-    /* debug */
-    margin: 1px;
-    border: 1px solid black;
+    width: calc(50% - 1px);
+    height: calc(50% - 1px);
+
+    background-color: #ff1c1c;
 }
 
 .sponsor4 {
-    width: calc(50% - 2px); 
-    /* debug */
-    margin: 1px;
-    border: 1px solid black;
+    width: calc(50% - 1px);
+    height: calc(50% - 1px);
+    background-color: #0093ce;
 }
 
 
@@ -282,8 +279,7 @@ a {
 
 .banner-center {
     flex: 0 0 calc(33% - 1px);
-    margin: 1px;
-    border: 1px dashed black;
+    background-color: #f5f5f5;
 }
 
 
@@ -294,51 +290,44 @@ a {
     flex: 0 0 calc(33% - 1px);
     margin: 1px;
     border: 1px dashed black;
-   
+
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 
 /* sponsor right part */
 
 .sponsor5 {
-    width: calc(50% - 2px); 
-    height: calc(50% - 2px); 
-    /*debug */
-    margin: 1px;
-    border: 1px solid black;
+    width: calc(50% - 1px);
+    height: calc(50% - 1px);
+    background-color: #d5001f;
 }
 
 .sponsor6 {
-    width: calc(50% - 2px); 
-    height: calc(50% - 2px); 
-    /* debug */
-    margin: 1px;
-    border: 1px solid black;
+    width: calc(50% - 1px);
+    height: calc(50% - 1px);
+    background-color: #b4d0e7;
 }
 
 .sponsor7 {
-    width: calc(50% - 2px); 
-    height: calc(50% - 2px); 
-    /* debug */
-    margin: 1px;
-    border: 1px solid black;
+    width: calc(50% - 1px);
+    height: calc(50% - 1px);
+    background-color: #0d2481;
 }
 
 .sponsor8 {
-    width: calc(50% - 2px); 
-    /* debug */
-    margin: 1px;
-    border: 1px solid black;
+    width: calc(50% - 1px);
+    height: calc(50% - 1px);
+    background-color: #ffd830;
 }
 
 
 /* PROVA */
 
 .prova {
-    background-color: palevioletred;
+    background-color: #f6f6f6;
 }
 
 .inizia-prova {
@@ -350,7 +339,7 @@ a {
 /* DOMANDE */
 
 .domande {
-    background-color: pink;
+    background-color: #ffffff;
 }
 
 .domande-frequenti {
@@ -362,6 +351,6 @@ a {
 
 /* FOOTER */
 .footer {
-    background-color: green;
+    background-color: #000000;
 
 }
