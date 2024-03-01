@@ -126,8 +126,11 @@ a {
     
 }
 
-.inizia-part ul li:last-child {
-    background-color: rgb(59, 216, 208);
+.inizia-part ul li:last-child a{
+    background-color:  #0061ff;
+    color: white;
+    padding: 10px;
+    margin: 1px;
 }
 
 
@@ -191,6 +194,11 @@ a {
     color: white;
 }
 
+.fa-arrow-down {
+    font-size: 24px;
+    color: black;
+    padding-top: 40px;
+}
 
 /* MAIN */
 .main {
@@ -467,12 +475,9 @@ ul li i {
 
 
 /* SEZIONE 5 OPERAZIONI */
-.operazioni-business {
-
-
-    /* debug */
-    height: 100px;
-    background-color: rgb(15, 172, 172)a;
+.operazioni-business {   
+    margin-bottom: 20px;
+    
 }
 
 
@@ -480,17 +485,27 @@ ul li i {
 .col-wrap {
     /* debug */
     flex: 0 0 calc(33.333% - 5px);
-    margin: 1px;
-    border: 1px dashed black;
+    background-size: cover;
+    margin: 10px 10px;
+    
+}
+
+.col-wrap p {
+    font-size: 0.9em;
+    margin-top: 20px;
+    
 }
 
 /* SEZIONE 6 SCOPRI DI PIU */
 .scopri {
-    /* debug */
-    height: 100px;
-    background-color: rgb(29, 224, 127);
+    margin: 60px 0;
 }
 
+.scopri p {
+    margin-top: 40px;
+    text-decoration: underline;
+    color: blue;
+}
 
 
 
