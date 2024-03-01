@@ -29,7 +29,7 @@ body {
 }
 
 img {
-   max-width: 100%;
+    max-width: 100%;
 }
 
 
@@ -68,8 +68,8 @@ a {
 
 /* primo container- logo part */
 .logo-part {
-    
-   
+
+
     width: 33%;
     display: flex;
 
@@ -87,7 +87,7 @@ a {
 .logo-list-item {
     padding: 10px;
     margin: 1px;
-    
+
 }
 
 
@@ -95,8 +95,8 @@ a {
 
 .empty-part {
     width: 33%;
-    
-    
+
+
 
 }
 
@@ -109,8 +109,8 @@ a {
 .inizia-part {
 
     width: 33%;
-   
-   
+
+
 
 }
 
@@ -123,18 +123,18 @@ a {
 .inizia-list-item {
     padding: 10px;
     margin: 1px;
-    
+
 }
 
-.inizia-part ul li:last-child a{
-    background-color:  #0061ff;
+.inizia-part ul li:last-child a {
+    background-color: #0061ff;
     color: white;
     padding: 10px;
     margin: 1px;
 }
 
 .inizia-part ul li:last-child a:hover {
-    background-color: #05377e; 
+    background-color: #05377e;
     transition: background-color 0.3s ease;
 }
 
@@ -146,13 +146,14 @@ a {
 
 .hero-container {
     width: 50%;
+    max-width: 1100%;
     margin-top: 2em;
-    
+
 }
 
 .hero-container h1 {
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
 
@@ -161,15 +162,16 @@ a {
     width: 50%;
     padding: 1px;
     position: relative;
-    
-    
+
+
 }
 
 .heroo1 {
     width: 30%;
-    
- 
+
+
 }
+
 .heroo2 {
     width: 70%;
 }
@@ -177,21 +179,23 @@ a {
 
 /* img fuori dal bordo */
 .heroo-img img {
-    width: 110%; 
-    position: absolute;
-    right: 
+    width: 130%;
     
+    position: absolute;
+   
+   
+
 }
 
 
 
 .heroo1 ul li {
     padding: 10px;
-    
+
 }
 
 
-.heroo1 ul li:nth-child(2) a{
+.heroo1 ul li:nth-child(2) a {
     padding: 10px;
     display: inline-block;
     background-color: #0061ff;
@@ -199,7 +203,7 @@ a {
 }
 
 .hero ul li:nth-child(2) a:hover {
-    background-color: #04439b; 
+    background-color: #04439b;
     transition: background-color 0.3s ease;
 }
 
@@ -219,10 +223,10 @@ a {
 .container {
 
     width: 45%;
-   
-   
-   
-   
+
+
+
+
 
 }
 
@@ -231,15 +235,15 @@ a {
 .piano-business {
     padding-top: 15%;
     padding-bottom: 50px;
-    
+
 }
 
 .piano-business h1 {
     padding-bottom: 50px;
 }
 
-.piano-business > span {
-    
+.piano-business>span {
+
     padding: 3px;
 }
 
@@ -249,11 +253,11 @@ a {
 .col {
     display: flex;
     justify-content: space-between;
-    
 
-  
-   
-   
+
+
+
+
 
 }
 
@@ -277,19 +281,20 @@ a {
 
 .info-prezzi h2 {
     margin-top: 20px;
-    font-size: 1.5em; 
+    font-size: 1.5em;
     display: inline-block;
-   
+
 }
 
 
-.info-prezzi h5  {
-    
-    font-size: 15px; 
+.info-prezzi h5 {
+
+    font-size: 15px;
     font-weight: bold;
     margin-top: 20px;
-   
+
 }
+
 .al-mese {
     color: gray;
     font-size: 1em;
@@ -300,36 +305,42 @@ ul li i {
 }
 
 .prova-gratis {
-    
-        margin: 10px;
-        padding: 3px 7px;
-        font-size: 12px; 
-        background-color: #0061ff;
-        text-align: center;
-        color: white;
-       
-       
-    }
 
-    .acquista-ora {
-        font-size: 1em;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        
-    }
+    margin: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    background-color: #0061ff;
+    text-align: center;
+    color: white;
 
-    .acquista-ora a {
-        text-decoration: underline;
-        color: #0d2481;
-    }
-    
+
+}
+
+
+.prova-gratis:hover {
+    background-color: #05377e;
+    transition: background-color 0.3s ease;
+}
+
+.acquista-ora {
+    font-size: 1em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.acquista-ora a {
+    text-decoration: underline;
+    color: #0d2481;
+}
+
 /* separatore */
 
 .separatore {
     height: 2px;
-    background-color: #grey; 
-    width: 50%; 
-    margin: 20px 0; 
+    background-color: #grey;
+    width: 50%;
+    margin: 20px 0;
     padding: 10px;
 }
 
@@ -342,6 +353,7 @@ ul li i {
 .punti-salienti ul li {
     font-size: 13px;
 }
+
 .fa-check {
     color: blue;
 }
@@ -352,13 +364,13 @@ ul li i {
 .col1 {
     width: 33%;
     margin: 1px;
-    
+
 }
 
 .col1 ul {
     padding-top: 30px;
     padding-bottom: 30px;
-       
+
 }
 
 .col1 ul li {
@@ -376,7 +388,7 @@ ul li i {
 /* Team - col2 */
 
 .col2 {
-    
+
     width: 33%;
     margin: 1px;
 }
@@ -384,20 +396,20 @@ ul li i {
 .col2 ul {
     padding-top: 30px;
     padding-bottom: 30px;
-       
+
 }
 
 .col2 ul li {
     padding-top: 10px;
     padding: 5px;
-    
-    
+
+
 }
 
 
 /* Azienda - col3 */
 .col3 {
-    
+
     width: 33%;
     margin: 1px;
 }
@@ -405,14 +417,14 @@ ul li i {
 .col3 ul {
     padding-top: 30px;
     padding-bottom: 30px;
-       
+
 }
 
 .col3 ul li {
     padding-top: 10px;
     padding: 5px;
-    
-    
+
+
 }
 
 
@@ -422,6 +434,7 @@ ul li i {
     border: 1px solid gray;
     margin-bottom: 80px;
 }
+
 .enterprise {
     position: relative;
 }
@@ -437,22 +450,28 @@ ul li i {
     font-size: 10px;
 }
 
-.enterprise > * {
+.enterprise span:hover {
+    background-color: #05377e; 
+    transition: background-color 0.3s ease;
+}
+
+.enterprise>* {
     padding: 10px 10px;
 }
 
-.enterprise > h6 {
+.enterprise>h6 {
     margin-bottom: 40px;
 }
-.enterprise > p {
+
+.enterprise>p {
     font-size: 10px;
 }
 
 
 /* SEZIONE 4 TROVA PARTNER */
 .partner {
-   display: flex;
-   margin-bottom: 50px;
+    display: flex;
+    margin-bottom: 50px;
 
 }
 
@@ -463,7 +482,7 @@ ul li i {
 
 .partner-info {
     padding: 20px;
-    
+
     width: 40%;
 }
 
@@ -471,7 +490,7 @@ ul li i {
     margin-bottom: 20px;
 }
 
-.partner-info ul li > p {
+.partner-info ul li>p {
     font-size: 15px;
 }
 
@@ -481,28 +500,33 @@ ul li i {
     border: 1px solid black;
 }
 
+.partner-info ul li:last-child:hover {
+    background-color: lightgray; 
+    transition: background-color 0.3s ease;
+}
 
 
 /* SEZIONE 5 OPERAZIONI */
-.operazioni-business {   
+
+.operazioni-business {
     margin-bottom: 20px;
-    
+
 }
 
 
 
 .col-wrap {
     /* debug */
-    flex: 0 0 calc(33.333% - 5px);
+    flex: 0 0 calc(33% - 20px);
     background-size: cover;
-    margin: 10px 10px;
-    
+    margin: 10px ;
+
 }
 
 .col-wrap p {
     font-size: 0.9em;
     margin-top: 20px;
-    
+
 }
 
 /* SEZIONE 6 SCOPRI DI PIU */
@@ -531,8 +555,6 @@ ul li i {
 .banner-left {
     flex: 0 0 calc(33% - 1px);
     margin: 1px;
-    
-
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -540,31 +562,53 @@ ul li i {
 
 /* sponsor left part */
 
+
 .sponsor1 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
-
     background-color: #a2d39b;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/designit.svg);
+    
+
 }
 
 .sponsor2 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
-
     background-color: #61082b;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/arizona_state_university.svg);
+    
+    
 }
 
 .sponsor3 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
-
     background-color: #ff1c1c;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/university_of_florida.svg);
+    
+
 }
 
 .sponsor4 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
     background-color: #0093ce;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/topps.svg);
+    
+
 }
 
 
@@ -582,7 +626,7 @@ ul li i {
 
 .banner-right {
     flex: 0 0 calc(33% - 1px);
-    
+
 
     display: flex;
     justify-content: space-between;
@@ -596,24 +640,48 @@ ul li i {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
     background-color: #d5001f;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/world_bicycle_relief.svg);
+    
+
 }
 
 .sponsor6 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
     background-color: #b4d0e7;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/hearst_corp.svg);
+    
+
 }
 
 .sponsor7 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
     background-color: #0d2481;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/lonely_planet.svg);
+    
+
 }
 
 .sponsor8 {
     width: calc(50% - 1px);
     height: calc(50% - 1px);
     background-color: #ffd830;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/clear_channel.svg);
+    
+
 }
 
 
@@ -626,7 +694,7 @@ ul li i {
 .inizia-prova {
     /* debug */
     height: 40px;
-   
+
 }
 
 /* DOMANDE */
@@ -638,7 +706,7 @@ ul li i {
 .domande-frequenti {
     /* debug */
     height: 40px;
-   
+
 }
 
 
