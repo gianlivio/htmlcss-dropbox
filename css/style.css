@@ -133,6 +133,10 @@ a {
     margin: 1px;
 }
 
+.inizia-part ul li:last-child a:hover {
+    background-color: #05377e; 
+    transition: background-color 0.3s ease;
+}
 
 
 /* HERO */
@@ -192,6 +196,11 @@ a {
     display: inline-block;
     background-color: #0061ff;
     color: white;
+}
+
+.hero ul li:nth-child(2) a:hover {
+    background-color: #04439b; 
+    transition: background-color 0.3s ease;
 }
 
 .fa-arrow-down {
